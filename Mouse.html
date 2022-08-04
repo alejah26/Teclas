@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html >
+    <head>
+        <meta charset="UTF-8">
+        <title>Dibujando con Mouse</title>
+        <style type="text/css">
+            h1
+            {
+                color :blueviolet;
+            }
+            p
+            {
+                color: chocolate;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Bienvenid@ a tu tablero</h1>
+        <canvas width="450" height="420" id="area_de_dibujo"></canvas>
+        <p>Mueve el mouse o las flechas para dibujar</p>
+        <p>Selecciona el color y el grosor del trazo
+            <input type="color" id="colorcito"/>
+            <input type="text" id="grueso"/>
+            <input type="button" value="Aceptar" id="btn"/>
+           
+        </p>
+        <script src="eventos_mouse.js"></script>
+    </body>
+</html>
